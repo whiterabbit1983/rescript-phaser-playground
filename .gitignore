@@ -1,0 +1,21 @@
+.cache
+/node_modules/
+/lib/
+.bsb.lock
+*.bs.js
+.merlin
+
+# System and IDE files
+Thumbs.db
+.DS_Store
+.idea
+*.suo
+*.sublime-project
+*.sublime-workspace
+
+# Vendors
+node_modules/
+
+# Build
+dist/
+/npm-debug.log

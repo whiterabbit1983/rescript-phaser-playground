@@ -1,0 +1,24 @@
+{
+  "name": "rescript-phaser-playground",
+  "version": "0.0.1",
+  "main": "src/Main.bs.js",
+  "scripts": {
+    "re:build": "rescript",
+    "re:clean": "rescript clean -with-deps",
+    "re:start": "rescript build -w",
+    "start": "parcel src/index.html -p 8000",
+    "build": "parcel build src/index.html --out-dir dist"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "rescript": "*"
+  }
+}
