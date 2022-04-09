@@ -25,7 +25,7 @@ module Scene = {
     let preload = S.preload
     let create = S.create
 
-    let create = () =>
+    let make = () =>
       {
         "preload": preload,
         "create": create,

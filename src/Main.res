@@ -46,6 +46,6 @@ let config = {
             "gravity": { "y": 200 }
         }
     },
-    "scene": [Level.create()]
+    "scene": [Level.make()]
   };
   Game.make(config)->ignore
